@@ -1,0 +1,18 @@
+Package: FeatherArray
+Type: Package
+Title: Using feather as a DelayedArray Backend
+Version: 0.1.0
+Author: Malte Thodberg
+Maintainer: Malte Thodberg <maltethodberg@gmail.com>
+Description: Implements a DelayedArray backend for reading from feather files.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    DelayedArray
+Imports: 
+    checkmate,
+    feather,
+    methods,
+    tools
+RoxygenNote: 7.3.1
